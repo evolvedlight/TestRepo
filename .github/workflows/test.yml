@@ -14,3 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: whoami
+
+  build2:
+    name: "Test Status"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - run: whoami
